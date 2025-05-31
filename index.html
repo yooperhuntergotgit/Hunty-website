@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <script>document.getElementById('colorBtn').onclick = function () {
+            document.body.style.backgroundColor = '#222'; // New background color
+            document.body.style.color = '#fff';           // New text color
+        };</script>
     <footer>
+        <button id="colorBtn">Change Color Mode</button>
         <h6>This webpage is hosted with a node.js server.</h6>
     </footer>
 </body>
